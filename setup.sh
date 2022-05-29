@@ -5,4 +5,4 @@
 cat zshrc >> ~/.zshrc
 
 #reload .zshrc
-source /.zshrc
+source ~/.zshrc
