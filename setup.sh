@@ -1,5 +1,8 @@
-# Creates space above new aliases in .zshrc file and labels section
+
 #!/bin/bash
+
+#push zshrc to .zshrc
 cat zshrc >> ~/.zshrc
 
+#reload .zshrc
 source /.zshrc
