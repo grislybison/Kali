@@ -2,7 +2,7 @@
 #!/bin/bash
 
 #push zshrc to .zshrc
-cat zshrc >> ~/.zshrc
+echo zshrc >> ~/.zshrc
 
 #reload .zshrc
-echo 'source ~/.zshrc'
+source ~/.zshrc
