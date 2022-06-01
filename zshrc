@@ -8,11 +8,6 @@ extip=$(curl -s http://ifconfig.me)
 ip=$(hostname -I | awk '{print $1}')
 mac=$(ip a | grep ether | awk '{print $2}')
 
-
-alias n="
-netstat -antp; echo; 
-ping -c 3 8.8.8.8"
-
 alias n='echo;
 echo -n "External IP: "$extip ; echo ;
 echo -n "Internal IP: "$ip ; echo ;
@@ -22,6 +17,4 @@ echo -n "DCHP: "$dhcp; echo;
 echo ; netstat -antp; echo ;
 ping -c3 google.com'
 
-
-# adds alias for quick update via CLI
 alias update='apt update ; apt -y upgrade ; apt -y dist-upgrade ; apt -y autoremove ; apt -y autoclean'
