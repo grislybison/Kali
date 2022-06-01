@@ -1,8 +1,6 @@
-
 #!/bin/bash
-
 #push zshrc to .zshrc
-echo zshrc >> ~/.zshrc
+cat zshrc >> ~/.zshrc;
 
 #reload .zshrc
-source ~/.zshrc
+echo source ~/.zshrc;
