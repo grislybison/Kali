@@ -12,8 +12,8 @@ alias n='echo;
 echo -n "External IP: "$extip ; echo ;
 echo -n "Internal IP: "$ip ; echo ;
 echo -n "MAC address: "$mac ; echo ;
-echo -n "DNS: "$dns ; echo ;
-echo -n "DCHP: "$dhcp; echo; 
+echo -n "DNS:         "$dns ; echo ;
+echo -n "DCHP:        "$dhcp; echo; 
 echo ; netstat -antp; echo ;
 ping -c3 google.com'
 
