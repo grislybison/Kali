@@ -18,3 +18,4 @@ echo ; netstat -antp; echo ;
 ping -c3 google.com'
 
 alias update='apt update ; apt -y upgrade ; apt -y dist-upgrade ; apt -y autoremove ; apt -y autoclean'
+alias www='python -m http.server 80'
